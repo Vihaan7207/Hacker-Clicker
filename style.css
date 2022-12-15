@@ -21,12 +21,29 @@
   border-radius: 20px;
   height: 150px;
 }
+.upgrade h4, .upgrade p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+}
+.upgrade h4 {
+  top: 5px;
+}
+.upgrade .desc {
+  top: 60px;
+}
+.upgrade .cost {
+  top: 100px;
+}
 
 #upgrades {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */

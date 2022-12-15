@@ -16,7 +16,7 @@ const mpcPlus = (amount, cost) => {
 	if(money >= cost){
 		money -= cost;
 		mpc += amount;
-		console.log(`MPC changed by +${amount} $${cost} deducted you have $${money} left`)
+		// console.log(`MPC changed by +${amount} $${cost} deducted you have $${money} left`)
 	}
 }
 
@@ -41,4 +41,4 @@ setInterval(() => {
 	localStorage.setItem('clicker:mpc', mpc);
 	localStorage.setItem('clicker:cps', cps);
 	console.log('progress saved')
-}, 5000);
+}, 1000);

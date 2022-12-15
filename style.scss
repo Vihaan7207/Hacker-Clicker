@@ -20,10 +20,27 @@
 	width: 150px;
 	border-radius: 20px;
 	height: 150px;
+	h4, p{
+		position: absolute;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		text-align: center;
+	}
+	h4 {
+		top: 5px;
+	}
+	.desc {
+		top: 60px;
+	}
+	.cost {
+		top: 100px;
+	}
 }
 #upgrades {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 30%;
+	display: flex;
+	justify-content: space-between;
 }
