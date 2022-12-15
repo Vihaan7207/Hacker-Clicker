@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hacker Clicker</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="main">
+  	<img src="button.jpg" id="button" width=300/>
+		<div id="stats">
+			<p>$: <span id="money"></span></p>
+			<p>$ per click: <span id="mpc"></span></p>
+			<p>$ per second: <span id="cps"></span></p>
+		</div>
+	</div>
+	<div id="upgrades">
+		<div class="upgrade" id="mpc-plus-1" onclick="mpcPlus(1, 10)">
+			<h4>Raspberry Pi</h4>
+			<p>$ per click +1</p>
+			$10
+		</div>
+	</div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+#button, .upgrade {
+  cursor: pointer;
+}
+
+#main {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 150px;
+}
+#main #stats {
+  display: flex;
+  justify-content: space-between;
+  font-family: Comfortaa;
+}
+
+.upgrade {
+  border: solid;
+  width: 150px;
+  border-radius: 20px;
+  height: 150px;
+}
+
+#upgrades {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 30%;
+}
+
+/*# sourceMappingURL=style.css.map */
