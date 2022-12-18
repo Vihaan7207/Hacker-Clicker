@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap');
 #button,.upgrade {
 	cursor: pointer;
 }
@@ -20,11 +20,13 @@
 	width: 150px;
 	border-radius: 20px;
 	height: 150px;
+	position: relative;
 	h4, p{
 		position: absolute;
 		transform: translate(-50%, -50%);
 		left: 50%;
 		text-align: center;
+		font-family: Poppins;
 	}
 	h4 {
 		top: 5px;
@@ -35,6 +37,7 @@
 	.cost {
 		top: 100px;
 	}
+	cursor: pointer;
 }
 #upgrades {
 	position: absolute;

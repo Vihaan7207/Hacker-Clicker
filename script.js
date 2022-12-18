@@ -6,6 +6,12 @@ let money = parseInt(localStorage.getItem('clicker:money')) || 0;
 let mpc = parseInt(localStorage.getItem('clicker:mpc')) || 1;
 let cps = parseInt(localStorage.getItem('clicker:cps')) || 0;
 
+const reset = () => {
+	money = 0;
+	mpc = 1;
+	cps = 0;
+}
+
 button.addEventListener('click', () => {
 	money += mpc;
 });
