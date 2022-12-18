@@ -1,1 +1,1 @@
-npx sass style.scss style.css --watch
+npx sass style.scss css/style.css --watch --style compressed
