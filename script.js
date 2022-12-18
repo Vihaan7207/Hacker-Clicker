@@ -10,6 +10,7 @@ const reset = () => {
 	money = 0;
 	mpc = 1;
 	cps = 0;
+	console.log('progress reset')
 }
 
 button.addEventListener('click', () => {
