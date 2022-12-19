@@ -17,7 +17,7 @@
 			<p>$ per second: <span id="cps"></span></p>
 		</div>
 	</div>
-	<div id="upgrades">
+	<div class="upgrades" id="upgrades-1">
 		<div class="upgrade" id="mpc-plus-1" onclick="mpcPlus(1, 15)">
 			<h4>Bad CPU</h4>
 			<p class="desc">$ per click +1</p>
@@ -43,10 +43,22 @@
 			<p class="desc">$ per click +5</p>
 			<p class="cost">$55</p>
 		</div>
-		<div class="upgrade" id="cps-plu-5" onclick="cpsPlus(5, 120)">
+		<div class="upgrade" id="cps-plus-5" onclick="cpsPlus(5, 120)">
 			<h4>Good GPU</h4>
 			<p class="desc">$ per second +5</p>
 			<p class="cost">$120</p>
+		</div>
+	</div>
+	<div class="upgrades" id="upgrades-2">
+		<div class="upgrade" id="mpc-plus-8" onclick="mpcPlus(8, 185)">
+			<h4>Nice CPU</h4>
+			<p class="desc">$ per click +8</p>
+			<p class="cost">$185</p>
+		</div>
+		<div class="upgrade" id="cps-plus-8" onclick="cpsPlus(8, 215)">
+			<h4>Nice GPU</h4>
+			<p class="desc">$ per second + 8</p>
+			<p class="cost">$215</p>
 		</div>
 	</div>
 	<button onclick="reset()">Reset Progress</button>

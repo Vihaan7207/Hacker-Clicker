@@ -39,14 +39,21 @@
 	}
 	cursor: pointer;
 }
-#upgrades {
+.upgrades {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	top: 60%;
 	display: flex;
 	justify-content: space-between;
 	width: 70%;
+}
+
+#upgrades-1 {
+	top: 40%;
+}
+
+#upgrades-2 {
+	top: 55%;
 }
 
 button {
@@ -54,4 +61,10 @@ button {
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 90%;
+	border: none;
+	width: 130px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: black;
+	color: #fff;
 }
