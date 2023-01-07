@@ -2,9 +2,9 @@ const button = document.querySelector('#button');
 const moneyEl = document.querySelector('#money');
 const mpcEl = document.querySelector('#mpc');
 const cpsEl = document.querySelector('#cps');
-let money = parseInt(localStorage.getItem('clicker:money')) || 0;
-let mpc = parseInt(localStorage.getItem('clicker:mpc')) || 1;
-let cps = parseInt(localStorage.getItem('clicker:cps')) || 0;
+let money = parseInt(localStorage.getItem('hackerclicker:money')) || 0;
+let mpc = parseInt(localStorage.getItem('hackerclicker:mpc')) || 1;
+let cps = parseInt(localStorage.getItem('hackerclicker:cps')) || 0;
 
 const reset = () => {
 	money = 0;
@@ -44,8 +44,8 @@ setInterval(() => {
 }, 100)
 
 setInterval(() => {
-	localStorage.setItem('clicker:money', money);
-	localStorage.setItem('clicker:mpc', mpc);
-	localStorage.setItem('clicker:cps', cps);
+	localStorage.setItem('hackerclicker:money', money);
+	localStorage.setItem('hackerclicker:mpc', mpc);
+	localStorage.setItem('hackerclicker:cps', cps);
 	console.log('progress saved')
 }, 1000);
